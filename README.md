@@ -1,11 +1,16 @@
-# MedLink — Medical RAG Chatbot
+# MedLink: Medical RAG Chatbot
 
 MedLink is a medical information chatbot built with LangGraph-based Retrieval-Augmented Generation (RAG). It retrieves information from multiple medical sources and uses GPT-4o to generate responses based on the retrieved content.
+
+Developed by a three-member team for potential use in hospital settings, with technical guidance and cloud resource support from the AWS Public Sector Healthcare team. The response structure and prompts were refined based on feedback from medical professionals.
+
+**My Role:** Team Leader: RAG architecture, LangGraph pipeline, and FastAPI backend integration.
 
 ## Features
 
 - **Multi-Source Retrieval:** Parallel retrieval from PubMed, Tavily, MedGemma, and Amazon Bedrock Knowledge Base.
 - **RAG Pipeline:** LangGraph orchestrates question processing, retrieval, GPT-4o answer integration, and LLM-based response evaluation.
+- **Clinical Feedback:** Refined response structure and prompts based on feedback from medical professionals.
 - **Web Interface:** React-based chat interface with Markdown rendering and a medical news ticker.
 
 ## Architecture
